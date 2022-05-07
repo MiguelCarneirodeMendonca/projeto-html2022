@@ -1,0 +1,51 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*remove o espaço em branco em cima do menu*/
+
+html{
+    background-color: rgb(31, 31, 31);
+}
+
+.fig-menu{
+    display: inline-block;
+}
+#menu_h .logo-menu{
+    max-width: 54px;
+    display: inline;
+}
+
+#menu_h{
+    background-color: rgb(78, 72, 72);
+}
+
+#menu_h ul {
+    padding: 0;
+}
+
+#menu_h ul li {
+    display: inline;
+}
+
+#menu_h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu_h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+/*qual será a cor quando o mouse passar por cima*/
+
+#menu_h ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+nav{
+    margin: 0;
+}
