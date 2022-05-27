@@ -12,9 +12,9 @@ html{
 .fig-menu{
     display: inline-block;
 }
-#menu_h .logo-menu{
-    max-width: 54px;
-    display: inline;
+.logo-menu{
+    max-width: 50px;
+    float: left;  
 }
 
 #menu_h{
@@ -23,6 +23,7 @@ html{
 
 #menu_h ul {
     padding: 0;
+    display: inline;
 }
 
 #menu_h ul li {
@@ -31,7 +32,8 @@ html{
 
 #menu_h ul li a {
     color: #FFF;
-    padding: 20px;
+    padding: 24px;
+    margin-top: 0;
     display: inline-block;
     text-decoration: none;
     transition: background .4s;
@@ -48,4 +50,12 @@ html{
 }
 nav{
     margin: 0;
+}
+.img_topo{
+    text-align: center;
+    margin-top: 30px;
+    opacity: 50%;
+}
+.container_sl{
+    width: 100%;
 }
